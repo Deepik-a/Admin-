@@ -10,7 +10,7 @@ const dashboardController=require('../controller/dashboardController')
  route.get('/',adminController.admin)
  route.get('/admin-login',adminController.login)
  route.post('/admin-login',adminController.loginPost)
- route.get('/dashboard',adminSection,dashboardController.dashboard)
+ route.get('/dashboard',adminSection,dashboardController.dashboard);
 
 
 
